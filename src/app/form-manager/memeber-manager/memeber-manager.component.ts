@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'pr-memeber-manager',
+// tslint:disable-next-line: component-selector
+  selector: 'app-memeber-manager',
   templateUrl: './memeber-manager.component.html',
   styleUrls: ['./memeber-manager.component.scss']
 })

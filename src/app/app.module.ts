@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {GlobalsModule} from './globals/globals.module';
+import {FormManagerModule} from './form-manager/form-manager.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,7 +13,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    GlobalsModule
+    GlobalsModule,
+    FormManagerModule
   ],
   providers: [],
   bootstrap: [AppComponent],
